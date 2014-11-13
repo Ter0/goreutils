@@ -4,12 +4,8 @@ import (
     "fmt"
     "flag"
     "os"
+    "github.com/ter0/goreutils/common"
 )
-
-func version() {
-    fmt.Println("0.0.0")
-    os.Exit(0)
-}
 
 func main() {
 
@@ -18,7 +14,8 @@ func main() {
 
     // only print the version if it's the only option
     if flag.NFlag() == 1 && *versionPtr == true {
-        version()
+        common.PrintVersion()
+        os.Exit(0)
     }
 
     dir, err := os.Getwd()
