@@ -1,10 +1,10 @@
 package main
 
 import (
-    "fmt"
     "flag"
-    "os"
+    "fmt"
     "github.com/ter0/goreutils/common"
+    "os"
 )
 
 func version() {

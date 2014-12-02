@@ -1,13 +1,13 @@
 package main
 
 import (
-    "fmt"
-    "flag"
-    "os"
-    "io"
     "bufio"
-    "github.com/ter0/goreutils/common"
     "crypto/md5"
+    "flag"
+    "fmt"
+    "github.com/ter0/goreutils/common"
+    "io"
+    "os"
 )
 
 func main() {

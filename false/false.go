@@ -2,8 +2,8 @@ package main
 
 import (
     "flag"
-    "os"
     "github.com/ter0/goreutils/common"
+    "os"
 )
 
 func main() {
